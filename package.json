@@ -1,5 +1,5 @@
 {
-  "name": "visual-discovery",
+  "name": "PixMatch-App",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,6 +13,7 @@
     "framer-motion": "^12.9.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
     "react-router-dom": "^7.5.2"
   },
   "devDependencies": {

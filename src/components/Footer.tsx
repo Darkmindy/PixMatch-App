@@ -1,10 +1,7 @@
-// src/components/Footer.tsx
-const Footer = () => {
+export default function Footer() {
   return (
-    <footer className="bg-white border-t mt-8 py-4 text-center text-sm text-gray-500">
-      © {new Date().getFullYear()} PixMatch — Tutti i diritti riservati.
+    <footer className="bg-gray-100 text-center text-sm py-6 mt-12 border-t">
+      <p className="text-gray-500">&copy; {new Date().getFullYear()} PixMatch – Tutti i diritti riservati.</p>
     </footer>
   );
-};
-
-export default Footer;
+}
